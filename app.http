@@ -1,0 +1,16 @@
+###
+POST 
+http://localhost:3000/products
+
+###
+GET
+http://localhost:3000/products/2/
+
+###
+GET 
+http://localhost:3000/products?page=1&pageSize=10&productName=apple&category=electronics
+
+
+###
+DELETE 
+http://localhost:3000/products/3
